@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>HBD Ola</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        </head>
+        <style>
+            @font-face {
+            font-family: 'bau_light';
+            src: url('Bauhaus Light BT.ttf') format('truetype');
+            }  
+
+            body {
+            margin: 0;
+            padding: 0;
+            height: auto;
+            width: 100vw;
+            display: inline-flex;
+            flex-flow: column;
+            justify-content: top;
+            align-items: center;
+            background-color: #DAC4FF;
+            font-family: 'bau_light';
+                    /* border: 1px solid black; */
+        }
+        div{
+            font-size: 60px;
+            /* border: 1px solid black; */
+        }
+        #reset {
+            position: absolute;
+            top: 20px;
+            left:20px;
+            padding: 5px;
+            font-size: 20px;
+            border: 1px solid black;
+            z-index: 0;
+        }
+        .container{
+            z-index: 1000;
+        }
+        p {
+            /* border: 1px solid black; */
+            text-align: center;
+            margin-bottom: 280px;
+        }
+        span{
+            border: 1px solid black;
+            margin: 0px 50px 0px 50px;
+            padding: 20px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 40px;
+            color: white;
+            z-index: 100;
+        }
+        .ox{
+            background-color: rgb(108, 108, 108);
+            border: none;
+            border-radius: 50%;
+        }
+        #ox_y:hover {
+            background-color: rgb(71, 255, 108);
+            color: rgb(108, 108, 108);
+        }
+        #ox_n:hover {
+            background-color: tomato;
+            color: rgb(108, 108, 108);
+        }
+        #num{
+            font-size: 40px;
+            margin-bottom: 250px;
+        }
+        </style>
+    <body>
+        <div class="container">
+            <p id="num">9</p>
+            <p>Ola teaches adults foreign language.</p>
+        </div>
+        <div class="OX_box">
+            <a href="wrong.html"><span class="ox" id="ox_y">YES</span></a>
+            <a href="q10.html"><span class="ox" id="ox_n">NO</span></a>
+        </div>
+    </body>
+</html>
